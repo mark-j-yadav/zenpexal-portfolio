@@ -34,7 +34,7 @@ export const socialLinks = [
   {
     name: "LinkedIn",
     icon: FaLinkedin,
-    url: "https://linkedin.com/in/yourusername",
+    url: "https://www.linkedin.com/in/jitender-yadav-82626b3bb",
   },
   {
     name: "Instagram",
