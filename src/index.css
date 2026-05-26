@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #020617; color: white; font-family: Inter, system-ui, sans-serif; }
+::selection { background: #22d3ee; color: #020617; }
+.glass { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); backdrop-filter: blur(18px); }
+.gradient-text { background: linear-gradient(90deg,#67e8f9,#a78bfa,#f0abfc); -webkit-background-clip: text; background-clip: text; color: transparent; }
