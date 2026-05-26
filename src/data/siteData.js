@@ -22,7 +22,7 @@ import {
 
 import { FaFacebookF, FaXTwitter } from "react-icons/fa6";
 
-export const whatsappNumber = "+91XXXXXXXXXX";
+export const whatsappNumber = "+919358595763";
 export const githubUrl = "https://github.com/mark-j-yadav";
 
 export const socialLinks = [
@@ -39,12 +39,12 @@ export const socialLinks = [
   {
     name: "Instagram",
     icon: FaInstagram,
-    url: "https://instagram.com/yourusername",
+    url: "https://instagram.com/zenpexal",
   },
   {
     name: "X/Twitter",
     icon: FaXTwitter,
-    url: "https://x.com/yourusername",
+    url: "https://x.com/markjyadav_",
   },
   {
     name: "Facebook",
