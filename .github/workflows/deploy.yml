@@ -2,7 +2,7 @@ name: Deploy Vite React App
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "master"]
 
 permissions:
   contents: read
@@ -21,13 +21,12 @@ jobs:
           node-version: 20
 
       - run: npm install
-
       - run: npm run build
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: ./dist
 
       - uses: actions/deploy-pages@v4
